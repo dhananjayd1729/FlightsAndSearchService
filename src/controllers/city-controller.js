@@ -1,5 +1,4 @@
-const { response } = require("express");
-const { CityService } = require("../services/city-service");
+const { CityService } = require("../services/index");
 
 const cityService = new CityService();
 
