@@ -18,31 +18,31 @@ module.exports = {
       [
         {
           name: "Delhi International Airport",
-          cityId: 6,
+          cityId: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           name: "Indira Gandhi International Airport",
-          cityId: 6,
+          cityId: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           name: "International Airport",
-          cityId: 8,
+          cityId: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           name: "Dcp Igi Airport",
-          cityId: 6,
+          cityId: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           name: "Delhi Airport",
-          cityId: 6,
+          cityId: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
