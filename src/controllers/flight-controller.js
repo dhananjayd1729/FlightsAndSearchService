@@ -24,7 +24,7 @@ const create = async (req, res) => {
 
 const getAll = async (req, res) => {
   try {
-    const response = await flightService.getAllFlights(req.query);
+    const response = await flightService.getAllFlightData(req.query);
     return res.status(200).json({
       data: response,
       success: true,
@@ -44,5 +44,5 @@ const getAll = async (req, res) => {
 
 module.exports = {
   create,
-  getAll,
+  getAll
 };
